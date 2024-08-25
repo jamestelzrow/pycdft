@@ -62,7 +62,7 @@ def ftgg(fg, source, dest, real=False):
     d = m - n
 
     if all(d == 0):
-        return
+        return fg
 
     elif all(d > 0):
         # crop fg
